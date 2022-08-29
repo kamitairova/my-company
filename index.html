@@ -13,31 +13,48 @@
     <link rel="stylesheet" href="./team.css">
     <link rel="stylesheet" href="./services.css">
     <link rel="stylesheet" href="./clients.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./gallery.css">
+    <script scr="script.js"></script>
+
 
 
 
     <title>MyCompany</title>
 </head>
 </body>
-<header>
-    <div class="header__logo">
-        <p> My Company</p>
-    </div> 
-    <nav>
-        <div class="topnav responsive"id="myTopnav">
-            <a href="index.html">HOME</a>
-            <a href="index.html">ABOUT</a>
-            <a href="index.html">SERVICES</a>
-            <a href="index.html">PORNFOLIO</a>
-            <a href="index.html">TESTIMONIALS</a>
-            <a href="index.html">CONTACT</a>
+
+<header class="header">
+   <nav class="container header__wrap">
+       <h1 class="header__title">My company</h1>
+       <ul class="header__links" id= "MyHeader"> 
+            <li class="header__links-item">
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="header__links-item">
+                <a href="index.html">ABOUT</a>
+            </li>
+            <li class="header__links-item">
+                <a href="index.html">SERVICES</a>
+            </li>
+            <li class="header__links-item">
+                <a href="index.html">PORNFOLIO</a>
+            </li>
+            <li class="header__links-item">
+                <a href="index.html">TESTIMONIALS</a>
+            </li>
+            <li class="header__links-item">
+                <a href="index.html">CONTACT</a>
+            </li>
             <a href="index.html"id="menu" class="icon">&#9776;</a>
-        </div>
-    </nav>
+       </ul>
+   </nav>
 </header>
+
+
                 
 <main>
-    <div class="welcome">
+<!--     <div class="welcome">
         <div class="container welcome__wrap">
             <h1 class="welcome__title">
                 Welcome on 
@@ -50,7 +67,7 @@
             </p>
         </div>
     </div>
-        <div class="about-us">
+    <div class="about-us">
         <div class="container about-us__wrap">
             <div class="about-us__image">
                 <img src="./assets/images/mac.png" alt="mac">
@@ -162,30 +179,64 @@
             </div>
         </div>
     </div>
-
-
-
-   
-   
-
-   <!--  <div class="main__clients">
-        <div class="wrapper">
-            <h1>SOME OF OUR CLIENTS</h1>
+ -->
+    <div class="gallery">
+        <div class="container gallery__wrap">
+            <h1 class="gallery__title">
+                Take a look at <span>Our works</span>
+            </h1>
             <div class="line"></div>
-        <div class="clients">
-            <img src="./assets/icons/chanel.png" alt="chanel">
-            <img src="./assets/icons/zara.png" alt="zara">
-            <img src="./assets/icons/guerlain.png" alt="guerlian">
-            <img src="./assets/icons/lancomi.png" alt="lancomi">
-            <img src="./assets/icons/lacoste.png" alt="lacoste">
+             <p><i>Lorem ipsum dolor sit amet,consectetur adipicising elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto accumedia velit excepturi porro ipsa tenetur. Lorem ipsum dolor sit amet,consectetur adipicising elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto accumedia velit excepturi porro ipsa tenetur. </i></p>
+            <div class="gallery__photos">
+                <div class="gallery__photos-line">
+                    <div class="gallery__img-wrap img-wrap">
+                        <img src="./assets/images/1.png">
+                    </div>
+                    <div class="img-wrap">
+                        <img src="./assets/images/1.png">
+                    </div>
+                    <div class="img-wrap">
+                        <img src="./assets/images/1.png">
+                    </div>
+                    <div class="img-wrap">
+                        <img src="./assets/images/1.png">
+                    </div>
+                </div>
+
+                <div class="gallery__photos-line">
+                    <img src="./assets/images/2.png">
+                    <img src="./assets/images/2.png">
+                    <img src="./assets/images/2.png">
+                    <img src="./assets/images/2.png">
+                </div>
+
+                <div class="gallery__photos-line">
+                    <img src="./assets/images/3.png">
+                    <img src="./assets/images/3.png">
+                    <img src="./assets/images/3.png">
+                    <img src="./assets/images/3.png">
+                </div>
+            </div>
         </div>
-            
+    </div>
+
+    <div class="testimonials">
+        <div class="container testimonials__wrap">
+            <h1 class="testimonial__title">
+                <span>Our client's</span> testimonials
+            </h1>
         </div>
-        
     </div>
 
 
-    <div class="wrapper">
+
+   
+   
+
+   
+
+
+  <!--   <div class="wrapper">
         <div class="main__work">
             <h1>TAKE A LOOK AT OUR WORK</h1>
             <div class="line"></div>
@@ -249,7 +300,6 @@
             </form>
         </div>
     </section>  -->
-
 
 
 </main>
